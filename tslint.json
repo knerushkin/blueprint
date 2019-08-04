@@ -1,0 +1,30 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {
+    "object-literal-sort-keys": false
+  },
+  "rules": {
+    "import-name": false,
+    "object-literal-sort-keys": false,
+    "semicolon": true,
+    "ordered-imports": false,
+    "quotemark": false,
+    "jsx-no-lambda": false,
+    "variable-name": [
+      true,
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "ban-keywords",
+      "check-format"
+    ],
+    "member-access": [true, "no-public"],
+    "object-shorthand-properties-first": false
+  },
+  "rulesDirectory": []
+}
